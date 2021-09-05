@@ -1,0 +1,16 @@
+C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\bin\Debug\net5.0\newStuff.exe
+C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\bin\Debug\net5.0\newStuff.deps.json
+C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\bin\Debug\net5.0\newStuff.runtimeconfig.json
+C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\bin\Debug\net5.0\newStuff.runtimeconfig.dev.json
+C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\bin\Debug\net5.0\newStuff.dll
+C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\bin\Debug\net5.0\ref\newStuff.dll
+C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\bin\Debug\net5.0\newStuff.pdb
+C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\obj\Debug\net5.0\newStuff.csproj.AssemblyReference.cache
+C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\obj\Debug\net5.0\newStuff.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\obj\Debug\net5.0\newStuff.AssemblyInfoInputs.cache
+C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\obj\Debug\net5.0\newStuff.AssemblyInfo.cs
+C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\obj\Debug\net5.0\newStuff.csproj.CoreCompileInputs.cache
+C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\obj\Debug\net5.0\newStuff.dll
+C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\obj\Debug\net5.0\ref\newStuff.dll
+C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\obj\Debug\net5.0\newStuff.pdb
+C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\obj\Debug\net5.0\newStuff.genruntimeconfig.cache
