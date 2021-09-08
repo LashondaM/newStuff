@@ -6,13 +6,16 @@ namespace newStuff
     {
         static void Main(string[] args)
         {
+            //int num = Convert.ToInt32("56");
+            //Console.WriteLine(num + 25);
 
-            // This prints out and stays on the same line. WriteLine prints and goes to a new line.
-            Console.Write("Enter your name: ");
-            string name = Console.ReadLine();
-            Console.Write("Enter your age: ");
-            string age = Console.ReadLine();
-            Console.WriteLine("Hello " + name + ", you're " + age);
+            // converting to Double allows us to enter in decimals, not ToInt32
+            Console.Write("Enter a number: ");
+            double num1 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter another number: ");
+            double num2 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine(num1 + num2);
 
             Console.ReadLine();
         }
