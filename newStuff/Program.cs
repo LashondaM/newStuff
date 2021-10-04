@@ -6,22 +6,27 @@ namespace newStuff
     {
         static void Main(string[] args)
         {
-            
-            Console.WriteLine(cube(4));
 
-            int cubedNumber = cube(74);
-            Console.WriteLine(cubedNumber);
+            bool isMale = false;
+            bool isTall = false;
 
+            if (isMale && isTall) // && (and) || (or)
+            {
+                Console.WriteLine("You are a tall male");
+            } else if (isMale && !isTall) // ! (not)
+            {
+                Console.WriteLine("You are male, but not tall");
+            } else if (!isMale && isTall)
+            {
+                Console.WriteLine("You are not male, but you are tall");
+            }
+            else
+            {
+                Console.WriteLine("You are not male and not tall");
+            }
 
             Console.ReadLine();
         }
-
-        static int cube(int num)
-        {
-            int result = num * num * num;
-            return result;
-        }
-
     }
 }
  
