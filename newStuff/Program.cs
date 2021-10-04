@@ -6,26 +6,38 @@ namespace newStuff
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(GetMax(11, 1, 4));
+            Console.ReadLine();
+        }
 
-            bool isMale = false;
-            bool isTall = false;
+        static int GetMax(int num1, int num2, int num3)
+        {
+            int result;
 
-            if (isMale && isTall) // && (and) || (or)
+            if (num1 >= num2 && num1 >= num3)
             {
-                Console.WriteLine("You are a tall male");
-            } else if (isMale && !isTall) // ! (not)
+                result = num1;
+            } else if (num2 >= num1 && num2 >= num3)
             {
-                Console.WriteLine("You are male, but not tall");
-            } else if (!isMale && isTall)
-            {
-                Console.WriteLine("You are not male, but you are tall");
+                result = num2;
             }
             else
             {
-                Console.WriteLine("You are not male and not tall");
+                result = num3;
             }
 
-            Console.ReadLine();
+            return result;
+
+            //if(num1 > num2)
+            //{
+            //    result = num1;
+            //}
+            //else
+            //{
+            //    result = num2;
+            //}
+
+            //return result;
         }
     }
 }
