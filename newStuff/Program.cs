@@ -6,18 +6,22 @@ namespace newStuff
     {
         static void Main(string[] args)
         {
-            //SayHi();
-            SayHi("Mike", 78);
-            SayHi("Luke", 34);
-            SayHi("Batman", 26);
+            
+            Console.WriteLine(cube(4));
+
+            int cubedNumber = cube(74);
+            Console.WriteLine(cubedNumber);
+
+
             Console.ReadLine();
         }
 
-        // static void SayHi() { console.WriteLine("Hello Mike"); }
-        static void SayHi(string name, int age)
+        static int cube(int num)
         {
-            Console.WriteLine("Hello " + name + ", you are " + age);
+            int result = num * num * num;
+            return result;
         }
+
     }
 }
  
