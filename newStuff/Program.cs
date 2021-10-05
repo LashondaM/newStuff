@@ -6,23 +6,36 @@ namespace newStuff
     {
         static void Main(string[] args)
         {
-            // do while loop executes the code inside the loop first before checking the condition
-            int index = 6;
-            do
+            string secretWord = "giraffe";
+            string guess = "";
+            int guessCount = 0;
+            int guessLimit = 3;
+            bool outOfGuesses = false;
+
+            while (guess != secretWord && !outOfGuesses)
             {
-                Console.WriteLine(index);
-                index++;
-            } while (index <= 5);
+                if (guessCount < guessLimit)
+                {
+                    Console.Write("Enter guess: ");
+                    guess = Console.ReadLine();
+                    guessCount++;
+                } else
+                {
+                    outOfGuesses = true; // boolean flags
+                }
+                
+            }
+            if (outOfGuesses)
+            {
+                Console.WriteLine("You Lose!");
+            }
+            else
+            {
+                Console.WriteLine("You Win!");
+            }
 
 
-                //int index = 1;
-                //while (index <= 5)
-                //{
-                //    Console.WriteLine(index);
-                //    //index++; // loops infinitely because it's never told it needs to stop, the condition is never false
-                //}
-
-                Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }
