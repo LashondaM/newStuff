@@ -35,7 +35,7 @@ namespace newStuff
 
             // basic for loop
 
-            //for(int i = 1; i <= 5; i++)
+            //for(int i = 1; i <= 5; i+=2)
             //{
             //    Console.WriteLine(i);
             //}
