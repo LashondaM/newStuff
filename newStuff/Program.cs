@@ -6,24 +6,42 @@ namespace newStuff
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(GetPow(2, 3));
+            // basic while loop
 
-            Console.ReadLine();
-        }
+            //int i = 1;
+            //while (i <= 10)
+            //{
+            //    Console.WriteLine(i);
+            //    i *= 2;
+            //}
 
-        static int GetPow(int baseNum, int powNum)
-        {
-            // baseNum ^ powNum
-
-            int result = 1;
-
-            for (int i = 0; i < powNum; i++) // i++ - something we wanna do after each iteration of the loop
+            // do while loop
+            int juice = 6;
+            do
             {
-                result *= baseNum;
+                Console.WriteLine(juice);
+                juice++;
+            } while (juice <= 8);
+
+
+            // complex for loop, reading through the array
+            string[] luckWords = { "tomato", "potato", "ravioli", "meat sauce" };
+
+            for(int g = 0; g < luckWords.Length; g++)
+            {
+                Console.WriteLine(luckWords[g]);
             }
 
-            return result;
+
+            // basic for loop
+
+            //for(int i = 1; i <= 5; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            Console.ReadLine();
+
         }
     }
 }
- 
