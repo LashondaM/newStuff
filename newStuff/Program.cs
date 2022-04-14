@@ -8,19 +8,19 @@ namespace newStuff
         {
             // basic while loop
 
-            int i = 1;
-            while (i <= 10)
-            {
-                Console.WriteLine(i);
-                i *= 2;
-            }
+            //int i = 1;
+            //while (i <= 10)
+            //{
+            //    Console.WriteLine(i);
+            //    i *= 2;
+            //}
 
-            //do while loop
-            int juice = 1;
+            // do while loop
+            int juice = 6;
             do
             {
                 Console.WriteLine(juice);
-                juice+=3;
+                juice++;
             } while (juice <= 8);
 
 
@@ -35,7 +35,7 @@ namespace newStuff
 
             // basic for loop
 
-            //for (int i = 1; i <= 5; i+=2)
+            //for(int i = 1; i <= 5; i++)
             //{
             //    Console.WriteLine(i);
             //}
