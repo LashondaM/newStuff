@@ -6,18 +6,62 @@ namespace newStuff
     {
         static void Main(string[] args)
         {
-            // the comma tells c# we want a 2 dimensional array, and in order to add more dimensions to an array, you just add more commas EX: for 5D you'll add 5 commas
-            int[,] numberGrid = {
-                { 1, 2},
-                { 3, 4},
-                { 5, 6}
-            };
+            // SCENARIO 1
+            try
+            {
+                /* Console.Write("Enter a number: ");
+                int num1 = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter another number: ");
+                int num2 = Convert.ToInt32(Console.ReadLine());
 
-            // if you don't know what elements you'll put into your array initally, you put in those two numbers and it'll tell c# how many rows and columns you want to have
-            // There will be 2 elements, and then those 2 elements will have 3 elements inside of it
-            int[,] myArray = new int[2,3];
+                Console.WriteLine(num1 / num2); */
+            }
+            catch(Exception e) // This parameter is used to get more information about the error that occured
+            {
+                Console.WriteLine(e.Message); // This Tells us what went wrong when we have the Exception e print out the exception method
+            }
 
-            Console.WriteLine(numberGrid[2, 0]);
+
+            // SCENARIO 2
+            try
+            {
+                /* Console.Write("Enter a number: ");
+                int num1 = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter another number: ");
+                int num2 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine(num1 / num2); */
+            }
+            catch (DivideByZeroException e) // We can also specify specific exceptions we want this catch block to catch
+            {
+                Console.WriteLine(e.Message); //Now this will only catch exceptions whenever we try to divide by zero, but will ignore other different exceptions in the console we didn't specify here
+            } // but the other different exceptions will stop the program and show up in the code instead of the console
+
+
+            // SCENARIO 3
+            try
+            {
+                Console.Write("Enter a number: ");
+                int num1 = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter another number: ");
+                int num2 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine(num1 / num2);
+            }
+            catch (DivideByZeroException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch(FormatException e) // We can add more catches for different specific exceptions we want to see in the console
+            {
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                //optional
+                // Any code inside the finally block will be executed no matter what, even if there are exceptions. So if you still want to execute something, you'll put it in here
+                //can also search C# exception lists online
+            }
 
             Console.ReadLine();
 
