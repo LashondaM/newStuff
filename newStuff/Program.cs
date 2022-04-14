@@ -6,39 +6,18 @@ namespace newStuff
     {
         static void Main(string[] args)
         {
-            // basic while loop
+            // the comma tells c# we want a 2 dimensional array, and in order to add more dimensions to an array, you just add more commas EX: for 5D you'll add 5 commas
+            int[,] numberGrid = {
+                { 1, 2},
+                { 3, 4},
+                { 5, 6}
+            };
 
-            //int i = 1;
-            //while (i <= 10)
-            //{
-            //    Console.WriteLine(i);
-            //    i *= 2;
-            //}
+            // if you don't know what elements you'll put into your array initally, you put in those two numbers and it'll tell c# how many rows and columns you want to have
+            // There will be 2 elements, and then those 2 elements will have 3 elements inside of it
+            int[,] myArray = new int[2,3];
 
-            // do while loop
-            int juice = 6;
-            do
-            {
-                Console.WriteLine(juice);
-                juice++;
-            } while (juice <= 8);
-
-
-            // complex for loop, reading through the array
-            string[] luckWords = { "tomato", "potato", "ravioli", "meat sauce" };
-
-            for(int g = 0; g < luckWords.Length; g++)
-            {
-                Console.WriteLine(luckWords[g]);
-            }
-
-
-            // basic for loop
-
-            //for(int i = 1; i <= 5; i++)
-            //{
-            //    Console.WriteLine(i);
-            //}
+            Console.WriteLine(numberGrid[2, 0]);
 
             Console.ReadLine();
 
