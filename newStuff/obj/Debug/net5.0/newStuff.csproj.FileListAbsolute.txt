@@ -3,7 +3,6 @@ C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\bin\Debug\net5.0\newStuff.d
 C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\bin\Debug\net5.0\newStuff.runtimeconfig.json
 C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\bin\Debug\net5.0\newStuff.runtimeconfig.dev.json
 C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\bin\Debug\net5.0\newStuff.dll
-C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\bin\Debug\net5.0\ref\newStuff.dll
 C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\bin\Debug\net5.0\newStuff.pdb
 C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\obj\Debug\net5.0\newStuff.csproj.AssemblyReference.cache
 C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\obj\Debug\net5.0\newStuff.GeneratedMSBuildEditorConfig.editorconfig
@@ -14,3 +13,4 @@ C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\obj\Debug\net5.0\newStuff.d
 C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\obj\Debug\net5.0\ref\newStuff.dll
 C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\obj\Debug\net5.0\newStuff.pdb
 C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\obj\Debug\net5.0\newStuff.genruntimeconfig.cache
+C:\Users\Lashonda\Documents\c#.Net\newStuff\newStuff\obj\Debug\net5.0\refint\newStuff.dll
