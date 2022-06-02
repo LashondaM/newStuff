@@ -6,12 +6,10 @@ namespace newStuff
     {
         static void Main(string[] args)
         {
-            Student student1 = new Student("Bobby", "Comp Sci", 4.0);
+            Movie avengers = new Movie("The Avengers", "Joss Whedon", "bacon");
+            Movie shrek = new Movie("Shrek", "Adamn Adamson", "PG");
 
-            Student student2 = new Student("Linda", "Underwater Basket Weaving", 2.7);
-
-            Console.WriteLine(student1.HasHonors());
-            Console.WriteLine(student2.HasHonors());
+            Console.WriteLine(avengers.Rating);
 
             Console.ReadLine();
 
