@@ -6,10 +6,12 @@ namespace newStuff
     {
         static void Main(string[] args)
         {
-            Movie avengers = new Movie("The Avengers", "Joss Whedon", "bacon");
-            Movie shrek = new Movie("Shrek", "Adamn Adamson", "PG");
+            Song holiday = new Song("Holiday", "Green Day", 200);
+            Console.WriteLine(Song.SongCount);
+            Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
+            Console.WriteLine(Song.SongCount);
 
-            Console.WriteLine(avengers.Rating);
+            Console.WriteLine(kashmir.getSongCount());
 
             Console.ReadLine();
 
