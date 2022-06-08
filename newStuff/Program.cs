@@ -6,16 +6,17 @@ namespace newStuff
     {
         static void Main(string[] args)
         {
-            // A static method is a method that belongs to the class, which means we don't have to create an instance of a class
-            // The Math.Sqrt is an example of a static method
-            /* You can't create instances of static classes, you'll get errors
-                Math myMath = new Math();*/
-            Console.WriteLine(Math.Sqrt(142));
+            /* the Chef class will be refered to as the super class in C# and the ItalianCheff class will be refered as the sub class 
+             * since it's inheriting from the Chef class */
 
-            // You can make an instance of a class if it's not a static class even if the methods inside are static
-            //UsefulTools tools = new UsefulTools();
+            Chef chef = new Chef();
+            chef.MakeChicken();
+            chef.MakeSpecialDish();
 
-            UsefulTools.SayHi("Luigi");
+            ItalianChef chef2 = new ItalianChef();
+            //chef2.MakeSalad();
+            //chef2.MakeMeatballs();
+            chef2.MakeSpecialDish();
 
             Console.ReadLine();
 
